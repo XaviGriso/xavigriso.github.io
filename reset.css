@@ -1,0 +1,59 @@
+.homepage {
+	background-color: #ececec;
+	padding-left: 150;
+	padding-right: 150;
+}
+
+.spaced {
+	margin: 10;
+}
+
+.flexRow {
+	display: flex;
+	flex-direction: row;
+}
+
+.icon {
+	margin: 5;
+}
+
+.mySlides {
+	display: none;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Open Sans', serif;
+	font-size: 18px;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
